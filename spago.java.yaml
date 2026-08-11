@@ -1,0 +1,6 @@
+package:
+  name: lazy
+  dependencies:
+    - control
+    - foldable-traversable
+    - prelude
