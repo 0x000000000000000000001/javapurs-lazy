@@ -4,3 +4,137 @@ package:
     - control
     - foldable-traversable
     - prelude
+    - invariant
+
+  test:
+    main: Test.Main
+    dependencies:
+      - control
+      - foldable-traversable
+      - prelude
+      - assert
+      - console
+      - effect
+      - exceptions
+      - partial
+      - st
+      - arrays
+      - either
+      - maybe
+      - refs
+      - tailrec
+      - functions
+      - tuples
+      - integers
+      - numbers
+      - strings
+      - enums
+      - foreign
+      - foreign-object
+      - record
+      - identity
+      - lists
+      - unfoldable
+      - gen
+      - quickcheck
+      - unsafe-coerce
+      - nullable
+
+workspace:
+  packageSet:
+    registry: 77.7.0
+  extraPackages:
+    aff:
+      path: "../javapurs-aff"
+    arrays:
+      path: "../javapurs-arrays"
+    assert:
+      path: "../javapurs-assert"
+    avar:
+      path: "../javapurs-avar"
+    catenable-lists:
+      path: "../javapurs-catenable-lists"
+    console:
+      path: "../javapurs-console"
+    datetime:
+      path: "../javapurs-datetime"
+    effect:
+      path: "../javapurs-effect"
+    enums:
+      path: "../javapurs-enums"
+    exceptions:
+      path: "../javapurs-exceptions"
+    foldable-traversable:
+      path: "../javapurs-foldable-traversable"
+    foreign:
+      path: "../javapurs-foreign"
+    foreign-object:
+      path: "../javapurs-foreign-object"
+    free:
+      path: "../javapurs-free"
+    functions:
+      path: "../javapurs-functions"
+    integers:
+      path: "../javapurs-integers"
+    js-date:
+      path: "../javapurs-js-date"
+    js-promise:
+      path: "../javapurs-js-promise"
+    js-promise-aff:
+      path: "../javapurs-js-promise-aff"
+    node-buffer:
+      path: "../javapurs-node-buffer"
+    node-event-emitter:
+      path: "../javapurs-node-event-emitter"
+    node-fs:
+      path: "../javapurs-node-fs"
+    node-http:
+      path: "../javapurs-node-http"
+    node-net:
+      path: "../javapurs-node-net"
+    node-path:
+      path: "../javapurs-node-path"
+    node-process:
+      path: "../javapurs-node-process"
+    node-streams:
+      path: "../javapurs-node-streams"
+    now:
+      path: "../javapurs-now"
+    nullable:
+      path: "../javapurs-nullable"
+    numbers:
+      path: "../javapurs-numbers"
+    ordered-collections:
+      path: "../javapurs-ordered-collections"
+    partial:
+      path: "../javapurs-partial"
+    prelude:
+      path: "../javapurs-prelude"
+    quickcheck:
+      path: "../javapurs-quickcheck"
+    random:
+      path: "../javapurs-random"
+    record:
+      path: "../javapurs-record"
+    refs:
+      path: "../javapurs-refs"
+    run:
+      path: "../javapurs-run"
+    spec:
+      path: "../javapurs-spec"
+    st:
+      path: "../javapurs-st"
+    strings:
+      path: "../javapurs-strings"
+    strings-extra:
+      path: "../javapurs-strings-extra"
+    unfoldable:
+      path: "../javapurs-unfoldable"
+    unsafe-coerce:
+      path: "../javapurs-unsafe-coerce"
+    uuid:
+      path: "../javapurs-uuid"
+    variant:
+      path: "../javapurs-variant"
+    yoga-json:
+      path: "../javapurs-yoga-json"
